@@ -1,7 +1,7 @@
 type Props = {}
 const AuthLayout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div className="bg-red-500 h-full">{children}</div>
+        <div className="flex items-center  justify-center flex-col h-full min-h-screen">{children}</div>
     )
 }
 export default AuthLayout
